@@ -1,0 +1,29 @@
+{
+  "name": "anima-theme",
+  "displayName": "Anima VSCode Theme",
+  "description": "Original Theme for modern WebDev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d3viant0ne/anima-theme.git"
+  },
+  "version": "0.0.1",
+  "license": "MIT",
+  "publisher": "d3viant0ne",
+  "engines": {
+    "vscode": "^1.5.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "galleryBanner": {
+    "color": "#44494f",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [{
+      "label": "Anima Theme",
+      "uiTheme": "vs-dark",
+      "path": "./themes/Anima.tmTheme"
+    }]
+  }
+}
